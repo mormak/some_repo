@@ -10,12 +10,6 @@ public class PatientService {
         patients = new ArrayList<>();
 
         patients.add(new Patient("Jan", "Kowalski"));
-        patients.add(new Patient("Adam", "Nowak"));
-        patients.add(new Patient("Piotr", "Szulc"));
-        patients.add(new Patient("Piotr", "Szulc"));
-        patients.add(new Patient("Piotr", "Szulc"));
-        patients.add(new Patient("Piotr", "Szulc"));
-        patients.add(new Patient("Piotr", "Szulc"));
     }
 
     public List<Patient> getAll() {
